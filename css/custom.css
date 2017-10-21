@@ -1,0 +1,248 @@
+body {
+    font-family: 'Raleeay';
+    font-size: 16px;
+    font-weight: 300;
+    color: #fff;
+    line-height: 30px;
+    text-align: center;
+    /* background-color: #222733; */
+    /* background-image: url("imagenes/fondo.jpg"); */
+    background: url("imagenes/fondo.jpg") no-repeat center top;
+}
+
+strong {
+    font-weight: 500;
+}
+
+a,
+a:hover,
+a:focus {
+    text-decoration: none;
+}
+
+h1,
+h2 {
+    margin-top: 10px;
+    font-size: 125px;
+    font-weight: 100;
+    line-height: 65px;
+    color: white;
+}
+
+h3 {
+    font-size: 22px;
+    font-weight: 300;
+}
+
+
+/* Contenidos y formulario*/
+
+.my-content {
+    padding: 100px 0 170px 0;
+}
+
+.my-content .mydescription {
+    margin: 20px 0 10px 0;
+}
+
+.my-content .mydescription p {
+    opacity: 0.8
+}
+
+.my-form-cont {
+    margin-top: 35px;
+}
+
+.myform-top {
+    overflow: hidden;
+    padding: 0 25px 15px 25px;
+    background: rgba(0, 0, 0, 0.35);
+    -moz-border-radius: 10px 10px 0 0;
+    -webkit-border-radius: 10px 10px 0 0;
+    border-radius: 10px 10px 0 0;
+}
+
+.myform-all {
+    overflow: hidden;
+    padding: 0 25px 15px 25px;
+    background: rgba(0, 0, 0, 0.35);
+    -moz-border-radius: 10px 10px 10px 10px;
+    -webkit-border-radius: 10px 10px 10px 10px;
+    border-radius: 10px 10px 10px 10px;
+}
+
+.myform-top-left {
+    float: left;
+    width: 75%;
+    padding-top: 25px;
+    text-align: left;
+}
+
+.myform-top-left {
+    opacity: 0.8;
+}
+
+.myform-top-rigth {
+    float: right;
+    width: 25%;
+    padding-top: 25px;
+    font-size: 66px;
+    text-align: right;
+    opacity: 0.3;
+}
+
+.myform-botton {
+    padding: 25px 25px 30px 25px;
+    background: rgba(0, 0, 0, 0.3);
+    -moz-border-radius: 0 0 10px 10px;
+    -webkit-border-radius: 0 0 10px 10px;
+    border-radius: 0 0 10px 10px;
+}
+
+.myform-botton .mybtn {
+    width: 100%;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="email"],
+textarea,
+textarea.form-control {
+    height: 50px;
+    vertical-align: middle;
+    background: #222733;
+    color: darkgrey;
+    transition: 0.8s;
+    border: 3px solid black;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 50px;
+    -moz-border-radius: 54px;
+    -webkit-border-radius: 54px;
+    border-radius: 54px;
+}
+
+input[type="text"]:focus,
+input[type="password"]:focus,
+input[type="email"]:focus,
+textarea:focus,
+textarea.form-control:focus {
+    background: #fff;
+    border: 2px solid #fff;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    border-radius: 4px;
+}
+
+.saltito {
+    margin-top: 10px;
+}
+
+button.mybtn {
+    transition: 0.8s;
+    height: 50px;
+    background: slategrey;
+    border: 0;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 40px;
+    color: black;
+    -moz-border-radius: 54px;
+    -webkit-border-radius: 54px;
+    border-radius: 54px;
+}
+
+button.mybtn:hover,
+button.mybtn:active {
+    opacity: 0.6;
+    color: #fff;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    border-radius: 4px;
+}
+
+button.mybtn:focus {
+    opacity: 0.6;
+    color: #fff;
+    background: black;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    border-radius: 4px;
+}
+
+.mysocial-login {
+    margin: 35px;
+}
+
+.mysocial-login-buttons {
+    margin-top: 25px;
+}
+
+.mybtn-social {
+    transition: 0.8s;
+    display: inline-block;
+    height: 50px;
+    margin: 5px;
+    padding: 15px 20px 0 20px;
+    background: rgba(0, 0, 0, 0.3);
+    border: 1px solid #222733;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 16px;
+    color: slategrey;
+    -moz-border-radius: 57px;
+    -webkit-border-radius: 57px;
+    border-radius: 57px;
+}
+
+.mybtn-social:hover,
+.mybtn-social:focus,
+.mybtn-social:active:focus {
+    outline: 0;
+    opacity: 0.6;
+    background: rgba(chocolate, blueviolet, brown, 0.3);
+    color: azure;
+    -moz-border-radius: 7px;
+    -webkit-border-radius: 7px;
+    border-radius: 7px;
+}
+
+
+/*Media queries*/
+
+@media (min-width: 992px) and (max-width: 1199px) {}
+
+@media (min-width: 768px) and (max-width: 991px) {}
+
+@media (max-width: 768px) {
+    .mytop-content {
+        padding: 60px 0 110px 0;
+    }
+}
+
+@media (max-width: 415px) {
+    h1,
+    h2 {
+        font-size: 32px;
+    }
+}
+
+.formulario {
+    transition: 0.8s;
+}
+
+.fondaso {
+    background: #222733;
+}
+
+.myform-contacto {
+    padding: 25px 25px 25px 25px;
+    background: rgba(0, 0, 0, 0.3);
+    -moz-border-radius: 10px 10px 10px 10px;
+    -webkit-border-radius: 10px 10px 10px 10px;
+    border-radius: 10px 10px 10px 10px;
+}
+
+.altura {
+    height: 200px;
+}

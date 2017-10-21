@@ -1,0 +1,348 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+header{
+    position: relative;
+}
+/***********************************************************************************************
+secciones
+***********************************************************************************************/
+section#superior{
+    color: #fff;
+    background: #007cad;
+}
+section#inferior{
+    color: #fff;
+    background: #007cad;
+    padding: 25px;
+}
+input#buscar {
+    position: relative;
+    top: 70px;
+}
+input#buscarDirectorio {
+    background: #003663;
+    margin-top: 100px;
+    opacity: 0.5;
+}
+section#menu{
+    background: #003663;
+    color: white;
+    padding-top: 5px;
+} 
+section#credenciales{
+    background: #003663;
+    color: white;
+}
+section#directorio{
+    background-image: url(../img/fondo.jpg);
+}
+section#contactanos{
+    background-image: url(../img/fondo.jpg);
+}
+/***********************************************************************************************
+enlaces
+***********************************************************************************************/
+ul.menu a{
+    color: #fff;
+    text-decoration:none;
+    text-transform: uppercase;
+    padding: 2px 30px 2px 35px;  
+}
+#menu li a:hover {
+   color: #fff798;
+}
+ul.menu li{
+    list-style:none;
+    display: inline;
+    margin: 0 1px 0 0;
+}
+/***********************************************************************************************
+iconos
+***********************************************************************************************/
+.iconoBuscar {
+    color: #55557e;
+    background: #fff;
+    border-radius: 100%;
+    border: solid #fff;
+    position: relative;
+    width: 30px;
+    top: 74px;
+}
+
+.iconoFacebook {
+    color: #55557e;
+    background: #fff;
+    border-radius: 100%;
+    border: solid #fff;
+    width: 30px;
+    position: relative;
+    left: 80%;
+}
+/***********************************************************************************************
+titulos
+***********************************************************************************************/
+h1{
+    color:#939393;
+    text-transform: uppercase; 
+    font-size: 23px;
+    padding-top: 30px;
+     
+}
+/***********************************************************************************************
+contenido p y div
+***********************************************************************************************/
+p.contenido{
+    color: #939393;
+}
+p.formulario{
+    color: #fff;
+    padding: 0.5px;
+}
+div.ubicacion {
+    position: relative;
+    top: 50px;
+}
+div.ubicacionAbajo {
+    position: relative;
+}
+div.pdf{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+p.directorioTabla{
+    color: #003663;
+}
+
+
+hr{
+    color: #939393;
+}
+div#formulario{
+    background: #003663;
+    margin-bottom: 25px;
+    margin-top: 25px;
+    padding: 20px;
+}
+/***********************************************************************************************
+imagenes img
+***********************************************************************************************/
+img.cabecera{
+    height: 300px;
+    width: 100%;
+}
+/***********************************************************************************************
+carrucel
+***********************************************************************************************/
+#sync1 .item{
+    background: #0c83e7;
+    padding: 100px 100px;
+    margin: 40px;
+    color: #FFF;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    text-align: center;
+}
+#sync2 .item{
+    background: #C9C9C9;
+    padding: 10px 0px;
+    margin: 50px;
+    color: #FFF;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    text-align: center;
+    cursor: pointer;
+}
+#sync2 .item h1{
+    font-size: 18px;
+}
+#sync2 .synced .item{
+    background: #0c83e7;
+}
+#owl-demoTres .item{
+    background: #42bdc2;
+    padding: 30px 0px;
+    margin: 5px;
+    color: #FFF;
+    text-align: center;
+    height: 220px
+}
+div#owl-demo{
+    padding: 30px 0px;
+    margin: 5px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    text-align: center;
+}
+#owl-demo .item{
+    background: #42bdc2;
+    padding: 30px 0px;
+    margin: 5px;
+    color: #FFF;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    text-align: center;
+    height: 220px;
+}
+div#owl-demoDos{
+    padding: 30px 0px;
+    margin: 5px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    text-align: center;
+}
+#owl-demoDos .item{
+    background: #42bdc2;
+    padding: 30px 0px;
+    margin: 5px;
+    color: #FFF;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    text-align: center;
+    height: 220px
+}
+div#owl-demoTres{
+    padding: 30px 0px;
+    margin: 5px;
+    text-align: center;
+}
+/***********************************************************************************************
+botones
+***********************************************************************************************/
+button.enviar{
+    margin-top: 90px;
+}
+button.btn{
+    width: 40%;
+}
+/***********************************************************************************************
+mapa
+***********************************************************************************************/
+.mapa{
+    border-radius: 68px 69px 68px 68px;
+    -moz-border-radius: 68px 69px 68px 68px;
+    -webkit-border-radius: 68px 69px 68px 68px;
+    height: 110px;    
+}
+.mapaFinal iframe{
+    margin-top: 30px;
+    border: 2px solid #003663;
+}
+/***********************************************************************************************
+Sombras
+***********************************************************************************************/
+.sombraAzul{
+    -webkit-box-shadow: -8px 6px 4px 0px rgba(0, 96, 137, 1);
+    -moz-box-shadow: -8px 6px 4px 0px rgba(0, 96, 137, 1);
+    box-shadow: -8px 6px 4px 0px rgba(0, 96, 137, 1);
+}
+.sombraAzulTexto{
+    text-shadow: -3px 2px 0px rgba(0, 96, 137, 1);
+}
+.sombraAzulTextoSaltado{
+    text-shadow:  -8px 5px 0px rgba(0, 96, 137, 1);
+}
+.sombraGris{
+    -webkit-box-shadow: -8px 6px 4px 0px rgba(147, 147, 147, 1);
+    -moz-box-shadow: -8px 6px 4px 0px rgba(147, 147, 147, 1);
+    box-shadow: -8px 6px 4px 0px rgba(147, 147, 147, 1);
+}
+
+
+/***********************************************************************************************
+Pagina: 6 - Directorio
+***********************************************************************************************/
+#accordion{
+    margin-top: 80px;
+}
+.cabecera-azul {
+    color: #fff !important;
+    background-color: #003663 !important;
+}
+.panel-group .panel+.panel {
+    margin-top: 0 !important;
+}
+#minimapa {
+    position: absolute;
+    opacity: 1;
+    width: 100%;
+    height: 108px;
+    border-radius: 35px;
+    overflow: hidden;
+    left: 0;
+}
+/***********************************************************************************************
+Pagina:Responsive
+***********************************************************************************************/
+@media (max-width: 480px) {
+    section#superior{
+        height: 250px  !important;
+        padding: 5px;
+    }
+    section#inferior{
+        height: 350px !important;
+        padding: 5px;
+    }
+    p{
+        text-align: left !important;
+    }
+    .iconoFacebook {
+        left: 0%;
+    }
+    div.ubicacionAbajo{
+        padding-top: 20px;
+    }
+    div.ubicacion {
+        margin-top: 45px;
+    }
+    input#buscar {
+    position: relative;
+    top: 15px !important;
+  }
+    .iconoBuscar {
+    top: 15px !important;    
+    }
+}
+
+
+@media (max-width: 800px) {
+    section#superior{
+        height: 210px;
+        padding: 5px;
+    }
+    section#inferior{
+        height: 210px;
+        padding: 5px;
+    } 
+    .iconoFacebook {
+        left: 10%;
+    }
+    div.ubicacionAbajo{
+        padding-top: 20px;
+    }
+    div.ubicacion {
+        margin-top: 45px;
+    }
+    input#buscar {
+    position: relative;
+    top: 0px;
+    }
+    .iconoBuscar {
+    top: 0px;    
+    }
+    div.ubicacion {
+        margin-top: 0px;
+        top: 35px;
+    }
+    #sync2{
+        margin-bottom: 50px;
+    }
+}

@@ -1,0 +1,196 @@
+/* Contenidos y formulario*/
+
+.my-content {}
+
+.my-content .mydescription {
+    margin: 20px 0 10px 0;
+}
+
+.my-content .mydescription p {
+    opacity: 0.8
+}
+
+.my-form-cont {
+    margin-top: 35px;
+}
+
+.myform-top {
+    overflow: hidden;
+    padding: 0 25px 15px 25px;
+    background: #1D212A;
+    -moz-border-radius: 10px 10px 0 0;
+    -webkit-border-radius: 10px 10px 0 0;
+    border-radius: 10px 10px 0 0;
+}
+
+.myform-all {
+    overflow: hidden;
+    padding: 0 25px 15px 25px;
+    background: rgba(47, 72, 123, 0.76);
+    -moz-border-radius: 10px 10px 10px 10px;
+    -webkit-border-radius: 10px 10px 10px 10px;
+    border-radius: 10px 10px 10px 10px;
+}
+
+.myform-top-left {
+    float: left;
+    width: 75%;
+    padding-top: 25px;
+    text-align: left;
+}
+
+.myform-top-left {
+    opacity: 0.8;
+}
+
+.myform-top-rigth {
+    float: right;
+    width: 25%;
+    padding-top: 25px;
+    font-size: 66px;
+    text-align: right;
+    opacity: 0.3;
+}
+
+.myform-botton {
+    padding: 25px 25px 30px 25px;
+    background: rgba(33, 51, 71, 0.87);
+    -moz-border-radius: 0 0 10px 10px;
+    -webkit-border-radius: 0 0 10px 10px;
+    border-radius: 0 0 10px 10px;
+}
+
+.myform-botton .mybtn {
+    width: 100%;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="email"],
+textarea,
+textarea.form-control {
+    height: 35px;
+    vertical-align: middle;
+    background: #1D2332;
+    ;
+    color: darkgrey;
+    transition: 0.8s;
+    border: 3px solid black;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 50px;
+    -moz-border-radius: 54px;
+    -webkit-border-radius: 54px;
+    border-radius: 54px;
+}
+
+input[type="text"]:focus,
+input[type="password"]:focus,
+input[type="email"]:focus,
+textarea:focus,
+textarea.form-control:focus {
+    background: #fff;
+    border: 2px solid #fff;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    border-radius: 4px;
+}
+
+.saltito {
+    margin-top: 10px;
+}
+
+button.mybtn {
+    transition: 0.8s;
+    height: 35px;
+    background: slategrey;
+    border: 0;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 40px;
+    color: black;
+    -moz-border-radius: 54px;
+    -webkit-border-radius: 54px;
+    border-radius: 54px;
+}
+
+button.mybtn:hover,
+button.mybtn:active {
+    opacity: 0.6;
+    color: #fff;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    border-radius: 4px;
+}
+
+button.mybtn:focus {
+    opacity: 0.6;
+    color: #fff;
+    background: black;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    border-radius: 4px;
+}
+
+
+/*Media queries*/
+
+@media (min-width: 992px) and (max-width: 1199px) {}
+
+@media (min-width: 768px) and (max-width: 991px) {}
+
+@media (max-width: 768px) {
+    .mytop-content {
+        padding: 60px 0 110px 0;
+    }
+}
+
+@media (max-width: 415px) {
+    h1,
+    h2 {
+        font-size: 32px;
+    }
+}
+
+.formulario {
+    transition: 0.8s;
+}
+
+.fondaso {
+    background: #222733;
+}
+
+.row {
+    margin-left: 0.05%;
+    margin-right: 0.05%;
+}
+
+.whitecolor {
+    color: #fbfbfb;
+}
+
+.funycolor {
+    background: url("imagenes/Almacen.jpg") no-repeat center top;
+    background-attachment: fixed;
+    overflow: scroll;
+}
+
+.funy {
+    background: #1D2332;
+    color: darkgrey;
+    transition: 0.8s;
+    border: 3px solid black;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 50px;
+    height: 65px;
+}
+
+.Color_Claro {
+    background: rgba(77, 91, 125, 0.26);
+}
+
+.Titulos {
+    font-size: 25px;
+    Color: #3A496B
+}

@@ -1,0 +1,15 @@
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th,
+td {
+    text-align: center;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: rgba(35, 28, 45, 0.34);
+    color: aliceblue;
+}
